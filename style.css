@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-color: orange;
+    width: 100vw;
+    height: 20vh;
+}
+.second{
+    background-color: white;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.third{
+    background-color: green;
+    width: 100vw;
+    height: 20vh;
+}
+.wheel{
+    height: 128px;
+    width: 128px;
+    justify-content: center;
+    border-radius: 50%;
+    outline: 2px solid darkblue;
+    position: relative;
+}
+.line{
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background-color: darkblue;
+    left: 50%;
+}
+.line:nth-child(1){
+    transform: rotate(15deg);
+}
+.line:nth-child(2){
+    transform: rotate(30deg);
+}
+.line:nth-child(3){
+    transform: rotate(45deg);
+}
+.line:nth-child(4){
+    transform: rotate(60deg);
+}
+.line:nth-child(5){
+    transform: rotate(75deg);
+}
+.line:nth-child(6){
+    transform: rotate(90deg);
+}
+.line:nth-child(7){
+    transform: rotate(105deg);
+}
+.line:nth-child(8){
+    transform: rotate(120deg);
+}
+.line:nth-child(9){
+    transform: rotate(135deg);
+}
+.line:nth-child(10){
+    transform: rotate(150deg);
+}
+.line:nth-child(11){
+    transform: rotate(165deg);
+}
+.line:nth-child(12){
+    transform: rotate(180deg);
+}
+.text{
+    position: relative;
+    top: 0;
+    width: auto;
+    height: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, orange, green);
+    text-align: center;
+    color: darkblue;
+}
+.text marquee{
+    position: relative;
+    top: 0;
+    width: 30vw;
+    height: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
